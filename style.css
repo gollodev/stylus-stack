@@ -1,0 +1,105 @@
+/**
+** NORMALIZE
+**/
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+details,
+section,
+summary,
+aside,
+main,
+menu,
+nav,
+figcaption,
+figure,
+footer,
+header,
+hgroup {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+
+/**
+**	STYLES
+**/
+h1 {
+  font-family: 'Candara', 'Calibri', 'Segoe', 'Segoe UI', 'Optima', 'Arial', 'sans-serif';
+  text-align: center;
+}
+p {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+}
+header {
+  display: block;
+  background: #512da8;
+  padding-bottom: 15px;
+}
+header nav {
+  *zoom: 1;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header nav:before,
+header nav:after {
+  content: '';
+  display: table;
+}
+header nav:after {
+  clear: both;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  color: #fff;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+.content-container {
+  *zoom: 1;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+.content-container:before,
+.content-container:after {
+  content: '';
+  display: table;
+}
+.content-container:after {
+  clear: both;
+}
+.content-container main {
+  display: block;
+}

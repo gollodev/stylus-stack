@@ -1,0 +1,37 @@
+{
+  "name": "stylus-stack",
+  "version": "1.0.0",
+  "description": "My Stylus Stack :) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gollodev/stylus-stack.git"
+  },
+  "keywords": [
+    "css3",
+    "stylus",
+    "normalize",
+    "rupture",
+    "lost",
+    "typographic",
+    "extensions",
+    "stack",
+    "frontend"
+  ],
+  "author": "Jose Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gollodev/stylus-stack/issues"
+  },
+  "homepage": "https://github.com/gollodev/stylus-stack",
+  "devDependencies": {
+    "lost": "^5.1.6",
+    "nib": "^1.1.0",
+    "rupture": "^0.6.1",
+    "stylus": "^0.50.0",
+    "typographic": "^2.9.2"
+  }
+}
