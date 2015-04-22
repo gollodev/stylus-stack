@@ -1,4 +1,4 @@
-# stylus-stack
+# Stylus Stack Rocks!
 Stylus + Nib + Lost + Rupture + typographic
 
 ## npm install
