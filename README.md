@@ -1,4 +1,4 @@
-# Stylus Stack Rocks!
+# Stylus Stack Rocks! imi
 Stylus + Nib + Lost + Rupture + typographic
 
 ## npm install
